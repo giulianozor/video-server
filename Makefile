@@ -10,8 +10,5 @@ build:
 	go build -o $(BINARY) .
 
 install: build
-	install -d $(BINDIR)
-	install -m 0755 $(BINARY) $(BINDIR)/$(BINARY)
-
-clean:
-	rm -f $(BINARY)
+	sudo install -d $(BINDIR)
+	sudo install -m 0755 $(BINARY) $(BINDIR)/$(BINARY)
