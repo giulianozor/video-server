@@ -14,6 +14,14 @@ Or install directly to `/usr/local/bin`:
 make install
 ```
 
+## Test
+
+Run the unit tests (with the race detector):
+
+```bash
+make test
+```
+
 ## Usage
 
 ```
